@@ -37,23 +37,23 @@ __Structural Patterns__:
 __Behavioral Patterns__:
 
 | Pattern | Description | Viewed |
-|:-------:| ----------- | ------- |
-| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility.py) | apply a chain of successive handlers to try and process the data | next |
+|:-------:| ----------- |--------|
+| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility.py) | apply a chain of successive handlers to try and process the data | next   |
 | [catalog](patterns/behavioral/catalog.py) | general methods will call different specialized methods based on construction parameter |
 | [chaining_method](patterns/behavioral/chaining_method.py) | continue callback next object method |
-| [command](patterns/behavioral/command.py) | bundle a command and arguments to call later | next |
-| [iterator](patterns/behavioral/iterator.py) | traverse a container and access the container's elements | next |
-| [iterator](patterns/behavioral/iterator_alt.py) (alt. impl.)| traverse a container and access the container's elements | next |
-| [mediator](patterns/behavioral/mediator.py) | an object that knows how to connect other objects and act as a proxy | next |
-| [memento](patterns/behavioral/memento.py) | generate an opaque token that can be used to go back to a previous state | next |
-| [observer](patterns/behavioral/observer.py) | provide a callback for notification of events/changes to data | next |
+| [command](patterns/behavioral/command.py) | bundle a command and arguments to call later | next   |
+| [iterator](patterns/behavioral/iterator.py) | traverse a container and access the container's elements | next   |
+| [iterator](patterns/behavioral/iterator_alt.py) (alt. impl.)| traverse a container and access the container's elements | next   |
+| [mediator](patterns/behavioral/mediator.py) | an object that knows how to connect other objects and act as a proxy | next   |
+| [memento](patterns/behavioral/memento.py) | generate an opaque token that can be used to go back to a previous state | next   |
+| [observer](patterns/behavioral/observer.py) | provide a callback for notification of events/changes to data | next   |
 | [publish_subscribe](patterns/behavioral/publish_subscribe.py) | a source syndicates events/data to 0+ registered listeners |
 | [registry](patterns/behavioral/registry.py) | keep track of all subclasses of a given class |
 | [specification](patterns/behavioral/specification.py) |  business rules can be recombined by chaining the business rules together using boolean logic |
-| [state](patterns/behavioral/state.py) | logic is organized into a discrete number of potential states and the next state that can be transitioned to | next |
-| [strategy](patterns/behavioral/strategy.py) | selectable operations over the same data | next |
-| [template](patterns/behavioral/template.py) | an object imposes a structure but takes pluggable components | next |
-| [visitor](patterns/behavioral/visitor.py) | invoke a callback for all items of a collection | next |
+| [state](patterns/behavioral/state.py) | logic is organized into a discrete number of potential states and the next state that can be transitioned to | next   |
+| [strategy](patterns/behavioral/strategy.py) | selectable operations over the same data | Yes |
+| [template](patterns/behavioral/template.py) | an object imposes a structure but takes pluggable components | next   |
+| [visitor](patterns/behavioral/visitor.py) | invoke a callback for all items of a collection | next   |
 
 __Design for Testability Patterns__:
 
